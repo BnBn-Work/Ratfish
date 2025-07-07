@@ -100,7 +100,6 @@ client.on("messageCreate",async function(message){
     }
 
     var data = parse_json_file(config.BOTDATA);
-    var g = await client.guilds.fetch(config.PROD_SERVER);
     var cat = await client.channels.fetch(data.category);
     if(message.channel.parentId == cat.id){
         //HIT
