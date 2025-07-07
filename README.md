@@ -23,12 +23,12 @@ You will be required to add the file: config.json and fill out the following JSO
 Right clicking on a user and selecting Promote will add them to the list of users whom can control the bot.
 
 ### Admin only commands
-/Clearlobby removes all users from the lobby
+/clearlobby removes all users from the lobby
 
 /setcategory updates the parent category for all lobby channels
 
 ### User Commands
-/Join adds the calling user to the lobby
+/join adds the calling user to the lobby
 
 /nickname (Nickname) sets the calling users secret nickname !THIS MUST BE DONE INSIDE THEIR LOBBY CHANNEL!
 
